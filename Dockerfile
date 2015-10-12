@@ -1,4 +1,5 @@
 FROM debian:wheezy
+MAINTAINER Markus Mayer <widemeadows@gmail.com>
 
 RUN apt-get update \
 	&& apt-get install -y curl \
