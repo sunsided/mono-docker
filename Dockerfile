@@ -1,8 +1,8 @@
 FROM debian:wheezy
 MAINTAINER Markus Mayer <widemeadows@gmail.com>
 
-ENV MONO_VERSION 4.3.3.744
-ENV DEBIAN_MONO_VERSION 4.3.3.744-0nightly2
+ENV MONO_VERSION 4.5.0.86
+ENV DEBIAN_MONO_VERSION 4.5.0.86-0nightly1
 
 RUN apt-get update \
 	&& apt-get install -y curl \
